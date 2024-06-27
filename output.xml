@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.4 on darwin)" generated="2024-06-27T16:58:26.192687" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="/Users/macbook/Desktop/framework/Login.robot">
+<test id="s1-t1" name="Search Google" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-06-27T16:58:26.639531" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5173/'.</msg>
+<arg>http://localhost:5173/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-06-27T16:58:26.639188" elapsed="20.817811"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-06-27T16:58:47.545918" level="INFO">Clicking button 'css=.MuiButton-text'.</msg>
+<arg>css=.MuiButton-text</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T16:58:47.535873" elapsed="0.764328"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T16:58:50.316132" level="INFO">Slept 2 seconds.</msg>
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T16:58:48.300749" elapsed="2.023540"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-27T16:58:50.355689" level="INFO">Typing text 'Worapakorn5' into text field 'name=usernameOrEmail'.</msg>
+<arg>name=usernameOrEmail</arg>
+<arg>Worapakorn5</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T16:58:50.334894" elapsed="1.175086"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T16:58:53.520049" level="INFO">Slept 2 seconds.</msg>
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T16:58:51.512053" elapsed="2.008202"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-06-27T16:58:53.521142" level="INFO">Clicking button 'xpath=//*[@id="root"]/div/main/div/div/div[2]/div[3]/button[2]'.</msg>
+<arg>xpath=//*[@id="root"]/div/main/div/div/div[2]/div[3]/button[2]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T16:58:53.520718" elapsed="0.224428"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T16:58:55.749752" level="INFO">Slept 2 seconds.</msg>
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T16:58:53.745737" elapsed="2.007235"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-06-27T16:58:55.753347" elapsed="0.446585"/>
+</kw>
+<status status="PASS" start="2024-06-27T16:58:26.637944" elapsed="29.565091"/>
+</test>
+<status status="PASS" start="2024-06-27T16:58:26.195240" elapsed="30.017869"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
